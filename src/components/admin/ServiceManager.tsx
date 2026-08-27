@@ -39,7 +39,7 @@ export default function ServiceManager({ initialServices }: { initialServices: S
     setLoading(true);
     try {
       if (currentService.id) {
-        await updateService(currentService.id, { ...currentService, fee: currentService.fee ?? undefined });
+        await updateService(currentService.id, { ...currentService, fee: currentService.fee ?? undefined, icon: currentService.icon ?? undefined });
         setServices(services.map(s => s.id === currentService.id ? { ...s, ...currentService } as Service : s));
       } else {
         await createService(currentService as { title: string; description: string });
