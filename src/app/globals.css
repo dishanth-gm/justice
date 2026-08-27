@@ -10,6 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  --color-navy-700: #1a2a40;
+  --color-navy-800: #121c2b;
+  --color-navy-900: #0a111a;
+  
+  --color-gold-50: #fbf8eb;
+  --color-gold-100: #f6eec3;
+  --color-gold-200: #eedb8a;
+  --color-gold-300: #e5c352;
+  --color-gold-400: #deb02b;
+  --color-gold-500: #d4981a;
+  --color-gold-600: #b87713;
+  
+  --color-ivory-50: #fdfdfc;
 }
 
 @media (prefers-color-scheme: dark) {
